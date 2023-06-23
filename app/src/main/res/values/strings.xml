@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ResourcesApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gitRepos">Git Repositories</string>
+    <string name="menu_coding">Coding</string>
+    <string name="menu_infoGathering">Info Gathering</string>
+    <string name="menu_trading">Trading</string>
+    <string name="menu_earn">Earn</string>
+    <string name="menu_tools">More tools</string>
+    <string name="menu_miscellaneous">Miscellaneous</string>
+    <string name="menu_webDev">Web Development</string>
+    <string name="menu_general">General</string>
+    <string name="menu_projectIdeas">Project Ideas</string>
+    <string name="menu_vsCodePlugins">VS Code Plugins </string>
+    <!--    <string name="menu_"></string>-->
+    <!--    <string name="menu_"></string>-->
+    <!--    <string name="menu_"></string>-->
+    <!--    <string name="menu_"></string>-->
+    <!--    <string name="menu_"></string>-->
+    <!--    <string name="menu_"></string>-->
+    <!--    <string name="menu_"></string>-->
+    <string name="menu_settings">Settings</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
