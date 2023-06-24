@@ -1,10 +1,13 @@
 package com.example.resourcesapp;
 
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
@@ -26,10 +29,11 @@ public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
     private static final String CORRECT_PASSWORD = "1234";
     int i=0;
-    Toast currentToast2;
     boolean passwordOK = false;
     int a = 0;
     Toast currentToast;
+    Toast currentToast1;
+    Toast currentToast2;
     NavigationView navigationView;
 
 
@@ -87,15 +91,20 @@ public class MainActivity extends AppCompatActivity {
                 currentToast.cancel();  // Cancel the current toast if it is visible
             }
 
-            currentToast = Toast.makeText(getApplicationContext(), b + " steps away from the hiding place", Toast.LENGTH_SHORT);
+            currentToast = Toast.makeText(getApplicationContext(), "Striding towards covert repository", Toast.LENGTH_SHORT);
             currentToast.show();
+//          Making strides towards the covert repository, hidden knowledge awaits
         }
         if (a == 9){
-            currentToast.cancel();
-            Toast.makeText(this, "hhahahhaah", Toast.LENGTH_SHORT).show();
-//            Intent i = new Intent(getApplicationContext(), password.class);
-//            startActivity(i);
             a = 0;
+            i = 0;
+            if (currentToast != null) {
+                currentToast.cancel();  // Cancel the current toast if it is visible
+            }
+            currentToast1 =  Toast.makeText(this, "Data treasure awaits,"+"\n"+"guarded by an enigma", Toast.LENGTH_LONG);
+            currentToast1.show();
+//            The hidden treasure of data lies before you" +"\n" + "guarded by a single enigma, daring you to decipher its essence.
+//            The hidden data lies here," +"\n" + "guarded by a single enigma
             dialog();
         }
 
@@ -122,8 +131,17 @@ public class MainActivity extends AppCompatActivity {
                 if (enteredPassword.equals(CORRECT_PASSWORD)) {
                     passwordOK = true;
                     goBack();
+                } else if (i == 2) {
+                    i++;
+                    retry();
                 } else {
-                    currentToast2 = Toast.makeText(getApplicationContext(), "Incorrect password " + "\n" + "chance remaining : " + (2-i) , Toast.LENGTH_SHORT);
+                    if (currentToast1 != null) {
+                        currentToast1.cancel();  // Cancel the current toast if it is visible
+                    }
+                    if (currentToast2 != null) {
+                        currentToast2.cancel();  // Cancel the current toast if it is visible
+                    }
+                    currentToast2 = Toast.makeText(getApplicationContext(), "the enigma remains intact. " + "\n" + "chances remaining : " + (2-i) , Toast.LENGTH_SHORT);
                     currentToast2.show();
                     i++;
                     retry();
@@ -147,11 +165,20 @@ public class MainActivity extends AppCompatActivity {
     }
     public void goBack(){
         if (passwordOK){
-            Toast.makeText(getApplicationContext(), "Secrets are handed over to you", Toast.LENGTH_SHORT).show();
+            if (currentToast2 != null) {
+                currentToast2.cancel();  // Cancel the current toast if it is visible
+            }
+            Toast.makeText(getApplicationContext(), "Persistence rewarded: Covert repository revealed!", Toast.LENGTH_LONG).show();
+//          Your persistence pays off! The covert repository is now revealed
+//            a = 0;
             visibility(true);
         }else {
-            currentToast.cancel();
-            Toast.makeText(getApplicationContext(), "you didn't get in.....SORRY", Toast.LENGTH_SHORT).show();
+            if (currentToast2 != null) {
+                currentToast2.cancel();  // Cancel the current toast if it is visible
+            }
+            Toast.makeText(getApplicationContext(), "Elusive puzzle persists, secrets still hidden.", Toast.LENGTH_LONG).show();
+//          Alas, the elusive puzzle remains unsolved , keeping its secrets hidden for now
+//            a = 0;
             visibility(false);
         }
     }
@@ -162,6 +189,14 @@ public class MainActivity extends AppCompatActivity {
         }else {
             navigationView.getMenu().setGroupVisible(R.id.hidden,false);
         }
+    }
+
+    public void clicked(View a){
+        TextView b = (TextView) a;
+        String c = b.getTag().toString();
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(c));
+//        i.setData(Uri.parse("https://www.github.com"));
+        startActivity(i);
     }
 
 }

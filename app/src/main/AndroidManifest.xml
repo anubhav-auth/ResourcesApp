@@ -14,6 +14,7 @@
         tools:targetApi="31">
         <activity
             android:name=".SplashScreen"
+            android:configChanges="orientation|screenSize"
             android:exported="true" >
 
             <intent-filter>
@@ -25,9 +26,14 @@
 
         <activity
             android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
             android:exported="true"
             android:theme="@style/Theme.ResourcesApp.NoActionBar">
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

@@ -23,8 +23,43 @@
         android:label="@string/menu_coding"
         tools:layout="@layout/fragment_coding" />
     <fragment
+        android:id="@+id/nav_moreTools"
+        android:name="com.example.resourcesapp.ui.moreTools.MoreToolsFragment"
+        android:label="@string/menu_moreTools"
+        tools:layout="@layout/fragment_more_tools" />
+    <fragment
+        android:id="@+id/nav_genral"
+        android:name="com.example.resourcesapp.ui.miscellaneous.MiscellaneousFragment"
+        android:label="@string/menu_miscellaneous"
+        tools:layout="@layout/fragment_miscellaneous" />
+    <fragment
+        android:id="@+id/nav_earn"
+        android:name="com.example.resourcesapp.ui.earn.EarnFragment"
+        android:label="@string/menu_earn"
+        tools:layout="@layout/fragment_earn" />
+    <fragment
+        android:id="@+id/nav_trading"
+        android:name="com.example.resourcesapp.ui.trading.TradingFragment"
+        android:label="@string/menu_trading"
+        tools:layout="@layout/fragment_trading" />
+    <fragment
+        android:id="@+id/nav_infoGathering"
+        android:name="com.example.resourcesapp.ui.infoGathering.InfoGatheringFragment"
+        android:label="@string/menu_infoGathering"
+        tools:layout="@layout/fragment_info_gathering" />
+    <fragment
         android:id="@+id/nav_settings"
         android:name="com.example.resourcesapp.ui.settings.SettingsFragment"
         android:label="@string/menu_settings"
         tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_downloads"
+        android:name="com.example.resourcesapp.ui.downloads.DownloadsFragment"
+        android:label="@string/menu_downloads"
+        tools:layout="@layout/fragment_downloads" />
+    <fragment
+        android:id="@+id/nav_projectIdeas"
+        android:name="com.example.resourcesapp.ui.projectIdeas.ProjectIdeasFragment"
+        android:label="@string/menu_projectIdeas"
+        tools:layout="@layout/fragment_project_ideas" />
 </navigation>
