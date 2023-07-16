@@ -9,7 +9,17 @@
         android:id="@+id/nav_home"
         android:name="com.example.resourcesapp.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_gitRepos"
+            app:destination="@id/nav_gitRepos" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_earn"
+            app:destination="@id/nav_earn" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_coding"
+            app:destination="@id/nav_coding" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_gitRepos"
@@ -21,17 +31,67 @@
         android:id="@+id/nav_coding"
         android:name="com.example.resourcesapp.ui.coding.CodingFragment"
         android:label="@string/menu_coding"
-        tools:layout="@layout/fragment_coding" />
+        tools:layout="@layout/fragment_coding" >
+        <action
+            android:id="@+id/action_nav_coding_to_nav_codingGames"
+            app:destination="@id/nav_codingGames" />
+        <action
+            android:id="@+id/action_nav_coding_to_nav_usefullIDEExtensions"
+            app:destination="@id/nav_usefullIDEExtensions" />
+    </fragment>
     <fragment
         android:id="@+id/nav_moreTools"
         android:name="com.example.resourcesapp.ui.moreTools.MoreToolsFragment"
         android:label="@string/menu_moreTools"
-        tools:layout="@layout/fragment_more_tools" />
+        tools:layout="@layout/fragment_more_tools">
+        <action
+            android:id="@+id/action_nav_moreTools_to_learnDesignFragment"
+            app:destination="@id/learnDesignFragment" />
+        <action
+            android:id="@+id/action_nav_moreTools_to_stockVideoFragment"
+            app:destination="@id/stockVideoFragment" />
+        <action
+            android:id="@+id/action_nav_moreTools_to_stockPhotosFragment"
+            app:destination="@id/stockPhotosFragment" />
+        <action
+            android:id="@+id/action_nav_moreTools_to_sketchingFragment"
+            app:destination="@id/sketchingFragment" />
+        <action
+            android:id="@+id/action_nav_moreTools_to_screenshotFragment"
+            app:destination="@id/screenshotFragment" />
+        <action
+            android:id="@+id/action_nav_moreTools_to_prototypingFragment"
+            app:destination="@id/prototypingFragment" />
+        <action
+            android:id="@+id/action_nav_moreTools_to_wireframingFragment"
+            app:destination="@id/wireframingFragment" />
+        <action
+            android:id="@+id/action_nav_moreTools_to_soundFragment"
+            app:destination="@id/soundFragment" />
+        <action
+            android:id="@+id/action_nav_moreTools_to_smm_Fragment"
+            app:destination="@id/smm_Fragment" />
+        <action
+            android:id="@+id/action_nav_moreTools_to_uiFragment"
+            app:destination="@id/uiFragment" />
+        <action
+            android:id="@+id/action_nav_moreTools_to_visualDebuggingFragment"
+            app:destination="@id/visualDebuggingFragment" />
+        <action
+            android:id="@+id/action_nav_moreTools_to_userResearchFragment"
+            app:destination="@id/userResearchFragment" />
+        <action
+            android:id="@+id/action_nav_moreTools_to_userFlowFragment"
+            app:destination="@id/userFlowFragment" />
+        <action
+            android:id="@+id/action_nav_moreTools_to_tools_3d_Fragment"
+            app:destination="@id/tools_3d_Fragment" />
+    </fragment>
     <fragment
         android:id="@+id/nav_genral"
-        android:name="com.example.resourcesapp.ui.miscellaneous.MiscellaneousFragment"
-        android:label="@string/menu_miscellaneous"
-        tools:layout="@layout/fragment_miscellaneous" />
+        android:name="com.example.resourcesapp.ui.general.GenralFragment"
+        android:label="@string/menu_general"
+        tools:layout="@layout/fragment_genral" />
     <fragment
         android:id="@+id/nav_earn"
         android:name="com.example.resourcesapp.ui.earn.EarnFragment"
@@ -62,4 +122,84 @@
         android:name="com.example.resourcesapp.ui.projectIdeas.ProjectIdeasFragment"
         android:label="@string/menu_projectIdeas"
         tools:layout="@layout/fragment_project_ideas" />
+    <fragment
+        android:id="@+id/nav_codingGames"
+        android:name="com.example.resourcesapp.ui.coding.sub.CodingGamesFragment"
+        android:label="@string/menu_codingGames"
+        tools:layout="@layout/fragment_coding_games" />
+    <fragment
+        android:id="@+id/nav_usefullIDEExtensions"
+        android:name="com.example.resourcesapp.ui.coding.sub.UsefullIDEExtensionsFragment"
+        android:label="@string/menu_usefullIDEExtensions"
+        tools:layout="@layout/fragment_usefull_extensions" />
+    <fragment
+        android:id="@+id/learnDesignFragment"
+        android:name="com.example.resourcesapp.ui.moreTools.sub.LearnDesignFragment"
+        android:label="fragment_learn_design"
+        tools:layout="@layout/fragment_learn_design" />
+    <fragment
+        android:id="@+id/prototypingFragment"
+        android:name="com.example.resourcesapp.ui.moreTools.sub.PrototypingFragment"
+        android:label="fragment_prototyping"
+        tools:layout="@layout/fragment_prototyping" />
+    <fragment
+        android:id="@+id/screenshotFragment"
+        android:name="com.example.resourcesapp.ui.moreTools.sub.ScreenshotFragment"
+        android:label="fragment_screenshot"
+        tools:layout="@layout/fragment_screenshot" />
+    <fragment
+        android:id="@+id/sketchingFragment"
+        android:name="com.example.resourcesapp.ui.moreTools.sub.SketchingFragment"
+        android:label="fragment_sketching"
+        tools:layout="@layout/fragment_sketching" />
+    <fragment
+        android:id="@+id/smm_Fragment"
+        android:name="com.example.resourcesapp.ui.moreTools.sub.Smm_Fragment"
+        android:label="fragment_smm_"
+        tools:layout="@layout/fragment_smm_" />
+    <fragment
+        android:id="@+id/soundFragment"
+        android:name="com.example.resourcesapp.ui.moreTools.sub.soundFragment"
+        android:label="fragment_sound"
+        tools:layout="@layout/fragment_sound" />
+    <fragment
+        android:id="@+id/stockPhotosFragment"
+        android:name="com.example.resourcesapp.ui.moreTools.sub.StockPhotosFragment"
+        android:label="fragment_stock_photos"
+        tools:layout="@layout/fragment_stock_photos" />
+    <fragment
+        android:id="@+id/stockVideoFragment"
+        android:name="com.example.resourcesapp.ui.moreTools.sub.StockVideoFragment"
+        android:label="fragment_stock_video"
+        tools:layout="@layout/fragment_stock_video" />
+    <fragment
+        android:id="@+id/tools_3d_Fragment"
+        android:name="com.example.resourcesapp.ui.moreTools.sub.tools_3d_Fragment"
+        android:label="fragment_tools_3d_"
+        tools:layout="@layout/fragment_tools_3d_" />
+    <fragment
+        android:id="@+id/uiFragment"
+        android:name="com.example.resourcesapp.ui.moreTools.sub.UiFragment"
+        android:label="fragment_ui"
+        tools:layout="@layout/fragment_ui" />
+    <fragment
+        android:id="@+id/userFlowFragment"
+        android:name="com.example.resourcesapp.ui.moreTools.sub.UserFlowFragment"
+        android:label="fragment_user_flow"
+        tools:layout="@layout/fragment_user_flow" />
+    <fragment
+        android:id="@+id/userResearchFragment"
+        android:name="com.example.resourcesapp.ui.moreTools.sub.UserResearchFragment"
+        android:label="fragment_user_research"
+        tools:layout="@layout/fragment_user_research" />
+    <fragment
+        android:id="@+id/visualDebuggingFragment"
+        android:name="com.example.resourcesapp.ui.moreTools.sub.VisualDebuggingFragment"
+        android:label="fragment_visual_debugging"
+        tools:layout="@layout/fragment_visual_debugging" />
+    <fragment
+        android:id="@+id/wireframingFragment"
+        android:name="com.example.resourcesapp.ui.moreTools.sub.WireframingFragment"
+        android:label="fragment_wireframing"
+        tools:layout="@layout/fragment_wireframing" />
 </navigation>

@@ -4,9 +4,11 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
 import android.text.InputType;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,6 +21,8 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 import com.example.resourcesapp.databinding.ActivityMainBinding;
+import com.example.resourcesapp.ui.moreTools.sub.LearnDesignFragment;
+import com.example.resourcesapp.views.grid.gridAdapter;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -34,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
     Toast currentToast1;
     Toast currentToast2;
     NavigationView navigationView;
+    ImageButton ib;
+    TextView tv;
+    Handler hd;
+    gridAdapter ga;
 
 
     @Override
@@ -47,25 +55,29 @@ public class MainActivity extends AppCompatActivity {
         // Apply the saved theme
         if (isDarkModeEnabled) {
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+
         } else {
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         }
         setContentView(binding.getRoot());
 
         setSupportActionBar(binding.appBarMain.toolbar);
-        binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
         DrawerLayout drawer = binding.drawerLayout;
         navigationView = binding.navView;
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gitRepos, R.id.nav_coding
+                R.id.nav_home,
+                R.id.nav_gitRepos,
+                R.id.nav_coding,
+                R.id.nav_moreTools,
+                R.id.nav_earn,
+                R.id.nav_trading,
+                R.id.nav_infoGathering,
+                R.id.nav_genral,
+                R.id.nav_projectIdeas,
+                R.id.nav_downloads
         )
                 .setOpenableLayout(drawer)
                 .build();
@@ -73,6 +85,8 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
         visibility(false);
+
+        hd = new Handler();
     }
 
     @Override
@@ -197,5 +211,82 @@ public class MainActivity extends AppCompatActivity {
 //        i.setData(Uri.parse("https://www.github.com"));
         startActivity(i);
     }
+
+
+    public void startFragmentCoding(View view) {
+        ib = (ImageButton) view;
+        String a = ib.getTag().toString();
+        hd.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                switch (a) {
+                    case "0" -> {
+                        Navigation.findNavController(view).navigate(R.id.action_nav_coding_to_nav_usefullIDEExtensions);
+                    }
+                    case "1" -> {
+                        Navigation.findNavController(view).navigate(R.id.action_nav_coding_to_nav_codingGames);
+                    }
+                    case "2" -> {
+
+                    }
+                }
+            }
+        },100);
+
+    }
+
+    public void startFragmentMoreTools() {
+
+//        hd.postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                switch (a) {
+//                    case 1 -> {
+//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_tools_3d_Fragment);
+//                    }
+//                    case 2 -> {
+//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_prototypingFragment);
+//                    }
+//                    case 3 -> {
+//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_screenshotFragment);
+//                    }
+//                    case 4 -> {
+//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_sketchingFragment);
+//                    }
+//                    case 5 -> {
+//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_smm_Fragment);
+//                    }
+//                    case 6 -> {
+//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_soundFragment);
+//                    }
+//                    case 7 -> {
+//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_stockPhotosFragment);
+//                    }
+//                    case 8 -> {
+//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_stockVideoFragment);
+//                    }
+//                    case 9 -> {
+//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_learnDesignFragment);
+//                    }
+//                    case 10 -> {
+//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_uiFragment);
+//                    }
+//                    case 11 -> {
+//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_userFlowFragment);
+//                    }
+//                    case 12 -> {
+//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_userResearchFragment);
+//                    }
+//                    case 13 -> {
+//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_visualDebuggingFragment);
+//                    }
+//                    case 14 -> {
+//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_wireframingFragment);
+//                    }
+//                }
+//            }
+//        },100);
+    }
+
 
 }

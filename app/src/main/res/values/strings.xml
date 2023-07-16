@@ -2,8 +2,8 @@
     <string name="app_name">Resources</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Anubhav Jaiswal</string>
+    <string name="nav_header_subtitle">anubhavjaiswal2002@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -14,18 +14,17 @@
     <string name="menu_trading">Trading</string>
     <string name="menu_earn">Earn</string>
     <string name="menu_moreTools">More tools</string>
-    <string name="menu_miscellaneous">Miscellaneous</string>
     <string name="menu_webDev">Web Development</string>
     <string name="menu_general">General</string>
     <string name="menu_projectIdeas">Project Ideas</string>
     <string name="menu_vsCodePlugins">VS Code Plugins </string>
     <string name="menu_downloads">Downloads</string>
+    <string name="menu_codingGames">Coding Games</string>
+    <string name="menu_usefullIDEExtensions">Usefull IDE Extensions</string>
+    <string name="demo">alpha beta gamma</string>
     <!--    <string name="menu_"></string>-->
     <!--    <string name="menu_"></string>-->
-    <!--    <string name="menu_"></string>-->
-    <!--    <string name="menu_"></string>-->
-    <!--    <string name="menu_"></string>-->
-    <!--    <string name="menu_"></string>-->
+    <string name="loreum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis ornare dui. Praesent et fermentum dolor. Aliquam sit amet hendrerit diam, ut sagittis ante. Ut commodo, tortor euismod dignissim maximus, ligula nisl rhoncus felis, et volutpat nisl lectus varius purus. Sed tempor lacus nec vehicula fermentum. Maecenas nulla enim, maximus nec facilisis faucibus, sagittis quis ante. Pellentesque sit amet dolor.</string>
     <string name="menu_settings">Settings</string>
     <!-- Preference Titles -->
     <string name="messages_header">Messages</string>
@@ -43,4 +42,6 @@
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
