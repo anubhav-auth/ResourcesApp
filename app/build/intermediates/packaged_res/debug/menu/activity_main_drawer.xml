@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group
+        android:id="@+id/main"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gitRepos"
+            android:icon="@drawable/ic_menu_github"
+            android:title="@string/menu_gitRepos" />
+        <item
+            android:id="@+id/nav_coding"
+            android:icon="@drawable/ic_menu_code"
+            android:title="@string/menu_coding" />
+        <item
+            android:id="@+id/nav_moreTools"
+            android:icon="@drawable/ic_menu_tool"
+            android:title="@string/menu_moreTools" />
+        <item
+            android:id="@+id/nav_earn"
+            android:icon="@drawable/ic_menu_earn"
+            android:title="@string/menu_earn" />
+        <item
+            android:id="@+id/nav_trading"
+            android:icon="@drawable/ic_menu_trade"
+            android:title="@string/menu_trading" />
+        <item
+            android:id="@+id/nav_infoGathering"
+            android:icon="@drawable/ic_menu_infogathering"
+            android:title="@string/menu_infoGathering" />
+        <item
+            android:id="@+id/nav_genral"
+            android:icon="@drawable/ic_menu_general"
+            android:title="@string/menu_general" />
+        <item
+            android:id="@+id/nav_projectIdeas"
+            android:icon="@drawable/ic_menu_projectideas"
+            android:title="@string/menu_projectIdeas" />
+    </group>
+    <group android:id="@+id/controls" >
+        <item
+            android:id="@+id/nav_downloads"
+            android:icon="@drawable/ic_menu_download"
+            android:title="@string/menu_downloads" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/menu_settings" />
+    </group>
+    <group android:id="@+id/hidden">
+        <item android:title="Item" />
+        <item android:title="Item" />
+        <item android:title="Item" />
+    </group>
+
+</menu>

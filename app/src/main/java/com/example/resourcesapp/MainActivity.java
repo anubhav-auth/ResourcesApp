@@ -20,6 +20,8 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.example.resourcesapp.databinding.ActivityMainBinding;
 import com.example.resourcesapp.ui.moreTools.sub.LearnDesignFragment;
 import com.example.resourcesapp.views.grid.gridAdapter;
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tv;
     Handler hd;
     gridAdapter ga;
+    RecyclerView rv;
 
 
     @Override
@@ -226,67 +229,10 @@ public class MainActivity extends AppCompatActivity {
                     case "1" -> {
                         Navigation.findNavController(view).navigate(R.id.action_nav_coding_to_nav_codingGames);
                     }
-                    case "2" -> {
-
-                    }
                 }
             }
         },100);
 
     }
-
-    public void startFragmentMoreTools() {
-
-//        hd.postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                switch (a) {
-//                    case 1 -> {
-//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_tools_3d_Fragment);
-//                    }
-//                    case 2 -> {
-//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_prototypingFragment);
-//                    }
-//                    case 3 -> {
-//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_screenshotFragment);
-//                    }
-//                    case 4 -> {
-//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_sketchingFragment);
-//                    }
-//                    case 5 -> {
-//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_smm_Fragment);
-//                    }
-//                    case 6 -> {
-//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_soundFragment);
-//                    }
-//                    case 7 -> {
-//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_stockPhotosFragment);
-//                    }
-//                    case 8 -> {
-//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_stockVideoFragment);
-//                    }
-//                    case 9 -> {
-//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_learnDesignFragment);
-//                    }
-//                    case 10 -> {
-//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_uiFragment);
-//                    }
-//                    case 11 -> {
-//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_userFlowFragment);
-//                    }
-//                    case 12 -> {
-//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_userResearchFragment);
-//                    }
-//                    case 13 -> {
-//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_visualDebuggingFragment);
-//                    }
-//                    case 14 -> {
-//                        Navigation.findNavController(view).navigate(R.id.action_nav_moreTools_to_wireframingFragment);
-//                    }
-//                }
-//            }
-//        },100);
-    }
-
 
 }
