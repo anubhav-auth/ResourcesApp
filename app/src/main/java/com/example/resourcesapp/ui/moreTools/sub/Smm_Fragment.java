@@ -42,25 +42,19 @@ public class Smm_Fragment extends Fragment {
     public void listings(){
         lists =  new ArrayList<listingModel>();
 /*        sample here
-        lists.add(new listingModel("", "", "https://www."));
+        lists.add(new listingModel("", "", ""));
 */
+        lists.add(new listingModel("Canva", "create stunning designs for work, life, and play—even if you’re not a design expert!", "https://www.canva.com/"));
 
-        lists.add(new listingModel("Design Better", "discover the best practices, stories, and insights from the world’s top design teams and leaders.", "https://www.designbetter.co/"));
+        lists.add(new listingModel("Crello", "create own designs: posts, covers, graphics, and posters using the best software on the web.", "https://crello.com/"));
 
-        lists.add(new listingModel("Design+Code", "complete courses about the best tools and design systems.", "https://www.designcode.io/"));
+        lists.add(new listingModel("Pablo by Buffer", "design engaging images for your social media posts.", "https://pablo.buffer.com/"));
 
-        lists.add(new listingModel("DesignerUp", "a collection of self-paced courses and mentorship to help you master Product Design (UI/UX).", "https://www.designerup.co/"));
+        lists.add(new listingModel("Remove.bg", "a free service to remove the background of any photo.", "https://www.remove.bg/"));
 
-        lists.add(new listingModel("Figma Training", "a crash course all about Figma, for UI designers.", "https://www.figmatraining.com/"));
+        lists.add(new listingModel("SocialSizes", "provides designers with the best sizes to use for image and video content on social media.", "https://socialsizes.io/"));
 
-        lists.add(new listingModel("Interaction Design Foundation", "a website that is the industry well known for learning UX/UI skills.", "https://www.interaction-design.org/"));
-
-        lists.add(new listingModel("Laws of UX", "a collection of the maxims and principles that designers can consider when building user interfaces.", "https://www.lawsofux.com/"));
-
-        lists.add(new listingModel("Learn UX", "a complete approach to learning UI & UX Tools.", "https://www.learnux.io/"));
-
-        lists.add(new listingModel("Sketch Master", "a collection of video training courses for professionals learning Sketch.", "https://www.sketchmaster.com/"));
-
+        lists.add(new listingModel("Stencil", "a graphic design tool that is all about creating social media images easily and quickly.", "https://getstencil.com/"));
 
         adapter = new listingAdapter(getContext(), lists);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);

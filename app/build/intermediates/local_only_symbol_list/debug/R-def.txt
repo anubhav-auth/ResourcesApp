@@ -36,6 +36,7 @@ drawable gitrepo
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_menu_code
+drawable ic_menu_contact
 drawable ic_menu_download
 drawable ic_menu_earn
 drawable ic_menu_general
@@ -75,11 +76,9 @@ id action_nav_moreTools_to_wireframingFragment
 id app_bar_main
 id controls
 id drawer_layout
+id editTextText
 id grid_text
 id hidden
-id imageButton
-id imageButton2
-id imageButton3
 id imageView
 id imageView2
 id learnDesignFragment
@@ -89,6 +88,7 @@ id main
 id mobile_navigation
 id nav_coding
 id nav_codingGames
+id nav_contact
 id nav_downloads
 id nav_earn
 id nav_genral
@@ -128,10 +128,12 @@ id secretButton
 id sketchingFragment
 id smm_Fragment
 id soundFragment
+id spinner2
 id stockPhotosFragment
 id stockVideoFragment
 id switch1
 id textView
+id textView_issue
 id toolbar
 id tools_3d_Fragment
 id uiFragment
@@ -145,6 +147,7 @@ layout app_bar_main
 layout content_main
 layout fragment_coding
 layout fragment_coding_games
+layout fragment_contact
 layout fragment_downloads
 layout fragment_earn
 layout fragment_genral
@@ -190,6 +193,7 @@ string hello_blank_fragment
 string loreum
 string menu_coding
 string menu_codingGames
+string menu_contact
 string menu_downloads
 string menu_earn
 string menu_general

@@ -43,9 +43,11 @@ public class UsefullIDEExtensionsFragment extends Fragment {
         lists.add(new listingModel("", "", "https://www."));
 
  */
-        lists.add(new listingModel("Tabnine", "", "https://www."));
-        lists.add(new listingModel("Mintlify", "", "https://www."));
-        lists.add(new listingModel("ESLint", "", "https://www."));
+        lists.add(new listingModel("Tabnine", "Autocomplete lines of code\n" +
+                "Suggests full function completion based on function declaration\n" +
+                "Generates blocks of code based on natural language comments", "https://www.tabnine.com/"));
+        lists.add(new listingModel("Mintlify", "✍️ AI powered documentation writer", "https://writer.mintlify.com/"));
+        lists.add(new listingModel("ESLint", "ESLint is an open source project that helps you find and fix problems with your JavaScript code.", "https://eslint.org/"));
 
         adapter = new listingAdapter(getContext(), lists);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);

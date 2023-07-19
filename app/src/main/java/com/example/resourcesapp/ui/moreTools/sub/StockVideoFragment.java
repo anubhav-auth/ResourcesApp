@@ -42,25 +42,28 @@ public class StockVideoFragment extends Fragment {
     public void listings(){
         lists =  new ArrayList<listingModel>();
 /*        sample here
-        lists.add(new listingModel("", "", "https://www."));
+        lists.add(new listingModel("", "", ""));
 */
 
-        lists.add(new listingModel("Design Better", "discover the best practices, stories, and insights from the world’s top design teams and leaders.", "https://www.designbetter.co/"));
+        lists.add(new listingModel("Coverr", "beautiful, free stock video footage for your homepage.", "https://coverr.co/"));
 
-        lists.add(new listingModel("Design+Code", "complete courses about the best tools and design systems.", "https://www.designcode.io/"));
+        lists.add(new listingModel("Life of Vids", "provides free stock videos, clips, and loops.", "http://www.lifeofvids.com/"));
 
-        lists.add(new listingModel("DesignerUp", "a collection of self-paced courses and mentorship to help you master Product Design (UI/UX).", "https://www.designerup.co/"));
+        lists.add(new listingModel("Mazwai", "great collection of free creative commons HD video clips & footages.", "http://mazwai.com/"));
 
-        lists.add(new listingModel("Figma Training", "a crash course all about Figma, for UI designers.", "https://www.figmatraining.com/"));
+        lists.add(new listingModel("Motion Places ", "a curated collection of beautiful footage you can use for your projects.", "https://www.motionplaces.com/"));
 
-        lists.add(new listingModel("Interaction Design Foundation", "a website that is the industry well known for learning UX/UI skills.", "https://www.interaction-design.org/"));
+        lists.add(new listingModel("Mixkit", "extraordinary Free HD videos. For you to use, completely free of charge.", "https://mixkit.co"));
 
-        lists.add(new listingModel("Laws of UX", "a collection of the maxims and principles that designers can consider when building user interfaces.", "https://www.lawsofux.com/"));
+        lists.add(new listingModel("Pixabay", "it has more than 1.5 million royalty-free stock videos and photos shared by their community of creators.", "https://pixabay.com/"));
 
-        lists.add(new listingModel("Learn UX", "a complete approach to learning UI & UX Tools.", "https://www.learnux.io/"));
+        lists.add(new listingModel("https://www.pexels.com/videos/", "makes it easy to find free stock footage for your website, promo video or anything else.", "https://www.pexels.com/videos/"));
 
-        lists.add(new listingModel("Sketch Master", "a collection of video training courses for professionals learning Sketch.", "https://www.sketchmaster.com/"));
+        lists.add(new listingModel("Videezy", "download millions of free and premium stock footage and motion graphics instantly.", "https://www.videezy.com/"));
 
+        lists.add(new listingModel("Videvo", "offers a large selection of HD video clips, motion graphics, and free stock footage.", "https://www.videvo.net/"));
+
+        lists.add(new listingModel("123RF", "over 100,000 daily new content & 24/7 online support", "https://www.123rf.com/"));
 
         adapter = new listingAdapter(getContext(), lists);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);

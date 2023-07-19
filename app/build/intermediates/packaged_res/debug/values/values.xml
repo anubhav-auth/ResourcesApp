@@ -61,6 +61,7 @@
     <string name="loreum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis ornare dui. Praesent et fermentum dolor. Aliquam sit amet hendrerit diam, ut sagittis ante. Ut commodo, tortor euismod dignissim maximus, ligula nisl rhoncus felis, et volutpat nisl lectus varius purus. Sed tempor lacus nec vehicula fermentum. Maecenas nulla enim, maximus nec facilisis faucibus, sagittis quis ante. Pellentesque sit amet dolor.</string>
     <string name="menu_coding">Coding</string>
     <string name="menu_codingGames">Coding Games</string>
+    <string name="menu_contact">Contact</string>
     <string name="menu_downloads">Downloads</string>
     <string name="menu_earn">Earn</string>
     <string name="menu_general">General</string>

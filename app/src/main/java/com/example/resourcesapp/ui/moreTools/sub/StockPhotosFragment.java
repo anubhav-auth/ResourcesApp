@@ -42,25 +42,76 @@ public class StockPhotosFragment extends Fragment {
     public void listings(){
         lists =  new ArrayList<listingModel>();
 /*        sample here
-        lists.add(new listingModel("", "", "https://www."));
+        lists.add(new listingModel("", "", ""));
 */
 
-        lists.add(new listingModel("Design Better", "discover the best practices, stories, and insights from the world’s top design teams and leaders.", "https://www.designbetter.co/"));
+        lists.add(new listingModel("Burst", "free stock photos for websites and commercial use.", "https://burst.shopify.com/"));
 
-        lists.add(new listingModel("Design+Code", "complete courses about the best tools and design systems.", "https://www.designcode.io/"));
+        lists.add(new listingModel("Duotone", "free duotone images to use in any project, or make custom duotone images.", "https://duotone.shapefactory.co/"));
 
-        lists.add(new listingModel("DesignerUp", "a collection of self-paced courses and mentorship to help you master Product Design (UI/UX).", "https://www.designerup.co/"));
+        lists.add(new listingModel("Death to Stock", "paid-for stock photo service with a mailing list for occasional free packs, and a focus on not looking like stock photography.", "https://deathtothestockphoto.com/"));
 
-        lists.add(new listingModel("Figma Training", "a crash course all about Figma, for UI designers.", "https://www.figmatraining.com/"));
+        lists.add(new listingModel("FoodiesFeed", "thousands of beautiful realistic free food pictures in high resolution.", "https://foodiesfeed.com/"));
 
-        lists.add(new listingModel("Interaction Design Foundation", "a website that is the industry well known for learning UX/UI skills.", "https://www.interaction-design.org/"));
+        lists.add(new listingModel("FreePhotos.cc", "free stock photos for commercial use.", "https://freephotos.cc/"));
 
-        lists.add(new listingModel("Laws of UX", "a collection of the maxims and principles that designers can consider when building user interfaces.", "https://www.lawsofux.com/"));
+        lists.add(new listingModel("Freestocks.org", "high quality photos all released under Creative Commons CC0.", "http://freestocks.org/"));
 
-        lists.add(new listingModel("Learn UX", "a complete approach to learning UI & UX Tools.", "https://www.learnux.io/"));
+        lists.add(new listingModel("Gratisography", "a collection of free high-resolution pictures.", "https://gratisography.com/"));
 
-        lists.add(new listingModel("Sketch Master", "a collection of video training courses for professionals learning Sketch.", "https://www.sketchmaster.com/"));
+        lists.add(new listingModel("Jay Mantri", "7 new photos released every Thursday under the Creative Commons CC0.", "https://jaymantri.com/"));
 
+        lists.add(new listingModel("Kaboom Pics", "stock photos including abstract, city/architecture, fashion, food & landscapes.", "https://kaboompics.com/"));
+
+        lists.add(new listingModel("LandingStock", "a collection of free images for your landing page.", "https://landingstock.com/"));
+
+        lists.add(new listingModel("Life of Pix", "free high-resolution photos, created by the LEEROY team.", "https://www.lifeofpix.com/"));
+
+        lists.add(new listingModel("LoremPixel", "an API that serves stock photos at specified sizes and categories. Great for placeholder/user-generated content.", "https://lorempixel.com/"));
+
+        lists.add(new listingModel("Magdeleine", "free high-quality stock photos for your inspiration.", "https://magdeleine.co/"));
+
+        lists.add(new listingModel("Moose", "don’t search for stock photos, create them.", "https://photos.icons8.com/"));
+
+        lists.add(new listingModel("MMT STock", "high-resolution photos provided by Jeffrey Betts with Creative Commons CC0.", "http://mmtstock.com/"));
+
+        lists.add(new listingModel("New Old Stock", "a vintage photos from the public archives free of known copyright restrictions.", "https://nos.twnsnd.co/"));
+
+        lists.add(new listingModel("Pexels", "an aggregate of many free stock photo and video resources.", "https://www.pexels.com/"));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
+
+        lists.add(new listingModel("", "", ""));
 
         adapter = new listingAdapter(getContext(), lists);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);

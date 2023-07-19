@@ -51,7 +51,7 @@ public class CodingGamesFragment extends Fragment {
 
         lists.add(new listingModel("CodinGame", "Learn new concepts by solving fun challenges in 25+ languages addressing all the hot programming topics.", "https://www.codingame.com/start"));
 
-        lists.add(new listingModel("CodeCombat", "", "https://codecombat.com/"));
+        lists.add(new listingModel("CodeCombat", "CodeCombat is a multiplayer programming game for learning how to code.", "https://codecombat.com/"));
 
         lists.add(new listingModel("CodeWars", "Improve your development skills by training with your peers on code kata that continuously challenge and push your coding practice.", "https://www.codewars.com/"));
 

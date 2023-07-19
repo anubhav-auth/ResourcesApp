@@ -202,4 +202,9 @@
         android:name="com.example.resourcesapp.ui.moreTools.sub.WireframingFragment"
         android:label="@string/sub_wireframing"
         tools:layout="@layout/fragment_wireframing" />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.resourcesapp.ui.contactForm.ContactFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contact" />
 </navigation>

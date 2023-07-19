@@ -42,24 +42,20 @@ public class soundFragment extends Fragment {
     public void listings(){
         lists =  new ArrayList<listingModel>();
 /*        sample here
-        lists.add(new listingModel("", "", "https://www."));
+        lists.add(new listingModel("", "", "");
 */
 
-        lists.add(new listingModel("Design Better", "discover the best practices, stories, and insights from the world’s top design teams and leaders.", "https://www.designbetter.co/"));
+        lists.add(new listingModel("Appsounds", "UI Sound packs for apps, games, and any product.", "https://appsounds.pro/"));
 
-        lists.add(new listingModel("Design+Code", "complete courses about the best tools and design systems.", "https://www.designcode.io/"));
+        lists.add(new listingModel("AudioJungle ", "836,206 tracks and sounds from the community of musicians and sound engineers.", "https://audiojungle.net/"));
 
-        lists.add(new listingModel("DesignerUp", "a collection of self-paced courses and mentorship to help you master Product Design (UI/UX).", "https://www.designerup.co/"));
+        lists.add(new listingModel("Bensound", "download creative commons music, royalty free music for free and use it in your project.", "https://www.bensound.com/"));
 
-        lists.add(new listingModel("Figma Training", "a crash course all about Figma, for UI designers.", "https://www.figmatraining.com/"));
+        lists.add(new listingModel("Freesound", "a collaborative database of Creative Commons Licensed sounds. Browse, download and share sounds.", "https://freesound.org/"));
 
-        lists.add(new listingModel("Interaction Design Foundation", "a website that is the industry well known for learning UX/UI skills.", "https://www.interaction-design.org/"));
+        lists.add(new listingModel("Fugue Music", "download free background music for your videos.", "https://icons8.com/music"));
 
-        lists.add(new listingModel("Laws of UX", "a collection of the maxims and principles that designers can consider when building user interfaces.", "https://www.lawsofux.com/"));
-
-        lists.add(new listingModel("Learn UX", "a complete approach to learning UI & UX Tools.", "https://www.learnux.io/"));
-
-        lists.add(new listingModel("Sketch Master", "a collection of video training courses for professionals learning Sketch.", "https://www.sketchmaster.com/"));
+        lists.add(new listingModel("Max", "connect objects with virtual patch cords to create interactive sounds, graphics, and custom effects.", "https://cycling74.com/products/max/"));
 
 
         adapter = new listingAdapter(getContext(), lists);

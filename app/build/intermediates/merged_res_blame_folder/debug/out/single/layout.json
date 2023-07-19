@@ -52,6 +52,10 @@
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.0\\com.example.resourcesapp-main-48:\\layout\\fragment_trading.xml"
     },
     {
+        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_contact.xml",
+        "source": "com.example.resourcesapp-main-48:/layout/fragment_contact.xml"
+    },
+    {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.0\\com.example.resourcesapp-mergeDebugResources-45:\\layout\\listing_view.xml",
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.0\\com.example.resourcesapp-main-48:\\layout\\listing_view.xml"
     },
@@ -100,10 +104,6 @@
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.0\\com.example.resourcesapp-main-48:\\layout\\fragment_wireframing.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_coding.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_coding.xml"
-    },
-    {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.0\\com.example.resourcesapp-mergeDebugResources-45:\\layout\\fragment_user_flow.xml",
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.0\\com.example.resourcesapp-main-48:\\layout\\fragment_user_flow.xml"
     },
@@ -122,6 +122,10 @@
     {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.0\\com.example.resourcesapp-mergeDebugResources-45:\\layout\\fragment_project_ideas.xml",
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.0\\com.example.resourcesapp-main-48:\\layout\\fragment_project_ideas.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.0\\com.example.resourcesapp-mergeDebugResources-45:\\layout\\fragment_contact.xml",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.0\\com.example.resourcesapp-main-48:\\layout\\fragment_contact.xml"
     },
     {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.0\\com.example.resourcesapp-mergeDebugResources-45:\\layout\\fragment_home.xml",

@@ -80,7 +80,8 @@ public class MainActivity extends AppCompatActivity {
                 R.id.nav_infoGathering,
                 R.id.nav_genral,
                 R.id.nav_projectIdeas,
-                R.id.nav_downloads
+                R.id.nav_downloads,
+                R.id.nav_contact
         )
                 .setOpenableLayout(drawer)
                 .build();
@@ -205,34 +206,6 @@ public class MainActivity extends AppCompatActivity {
         }else {
             navigationView.getMenu().setGroupVisible(R.id.hidden,false);
         }
-    }
-
-    public void clicked(View a){
-        TextView b = (TextView) a;
-        String c = b.getTag().toString();
-        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(c));
-//        i.setData(Uri.parse("https://www.github.com"));
-        startActivity(i);
-    }
-
-
-    public void startFragmentCoding(View view) {
-        ib = (ImageButton) view;
-        String a = ib.getTag().toString();
-        hd.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                switch (a) {
-                    case "0" -> {
-                        Navigation.findNavController(view).navigate(R.id.action_nav_coding_to_nav_usefullIDEExtensions);
-                    }
-                    case "1" -> {
-                        Navigation.findNavController(view).navigate(R.id.action_nav_coding_to_nav_codingGames);
-                    }
-                }
-            }
-        },100);
-
     }
 
 }

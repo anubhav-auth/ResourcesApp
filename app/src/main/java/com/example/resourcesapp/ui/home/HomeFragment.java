@@ -37,20 +37,4 @@ public class HomeFragment extends Fragment {
         // TODO: Use the ViewModel
     }
 
-//    public void startFragment(View view) {
-//        ib = (ImageButton) view;
-//        String a = ib.getTag().toString();
-//
-//        switch (a) {
-//            case "0" -> {
-//                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_nav_gitRepos);
-//            }
-//            case "1" -> {
-//                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_nav_coding);
-//            }
-//            case "2" -> {
-//                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_nav_earn);
-//            }
-//        }
-//    }
 }

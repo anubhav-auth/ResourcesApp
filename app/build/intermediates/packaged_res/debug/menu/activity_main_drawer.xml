@@ -45,17 +45,23 @@
             android:icon="@drawable/ic_menu_projectideas"
             android:title="@string/menu_projectIdeas" />
     </group>
-    <group android:id="@+id/controls" >
+    <group android:id="@+id/controls"
+        android:checkableBehavior="single">
         <item
             android:id="@+id/nav_downloads"
             android:icon="@drawable/ic_menu_download"
             android:title="@string/menu_downloads" />
         <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_contact"
+            android:title="@string/menu_contact" />
+        <item
             android:id="@+id/nav_settings"
             android:icon="@drawable/ic_menu_settings"
             android:title="@string/menu_settings" />
     </group>
-    <group android:id="@+id/hidden">
+    <group android:id="@+id/hidden"
+        android:checkableBehavior="single">
         <item android:title="Item" />
         <item android:title="Item" />
         <item android:title="Item" />
