@@ -8,6 +8,8 @@
         android:minSdkVersion="26"
         android:targetSdkVersion="33" />
 
+    <uses-permission android:name="android.permission.SEND_EMAIL" />
+
     <permission
         android:name="com.example.resourcesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />

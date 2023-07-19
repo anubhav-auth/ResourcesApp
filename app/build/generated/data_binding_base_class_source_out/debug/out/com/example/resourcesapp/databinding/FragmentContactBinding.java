@@ -4,9 +4,8 @@ package com.example.resourcesapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Spinner;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -22,20 +21,25 @@ public final class FragmentContactBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button button;
+
+  @NonNull
   public final EditText editTextText;
 
   @NonNull
-  public final Spinner spinner2;
+  public final EditText editTextText2;
 
   @NonNull
-  public final TextView textViewIssue;
+  public final EditText textView2;
 
-  private FragmentContactBinding(@NonNull ConstraintLayout rootView, @NonNull EditText editTextText,
-      @NonNull Spinner spinner2, @NonNull TextView textViewIssue) {
+  private FragmentContactBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
+      @NonNull EditText editTextText, @NonNull EditText editTextText2,
+      @NonNull EditText textView2) {
     this.rootView = rootView;
+    this.button = button;
     this.editTextText = editTextText;
-    this.spinner2 = spinner2;
-    this.textViewIssue = textViewIssue;
+    this.editTextText2 = editTextText2;
+    this.textView2 = textView2;
   }
 
   @Override
@@ -65,26 +69,32 @@ public final class FragmentContactBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.button;
+      Button button = ViewBindings.findChildViewById(rootView, id);
+      if (button == null) {
+        break missingId;
+      }
+
       id = R.id.editTextText;
       EditText editTextText = ViewBindings.findChildViewById(rootView, id);
       if (editTextText == null) {
         break missingId;
       }
 
-      id = R.id.spinner2;
-      Spinner spinner2 = ViewBindings.findChildViewById(rootView, id);
-      if (spinner2 == null) {
+      id = R.id.editTextText2;
+      EditText editTextText2 = ViewBindings.findChildViewById(rootView, id);
+      if (editTextText2 == null) {
         break missingId;
       }
 
-      id = R.id.textView_issue;
-      TextView textViewIssue = ViewBindings.findChildViewById(rootView, id);
-      if (textViewIssue == null) {
+      id = R.id.textView2;
+      EditText textView2 = ViewBindings.findChildViewById(rootView, id);
+      if (textView2 == null) {
         break missingId;
       }
 
-      return new FragmentContactBinding((ConstraintLayout) rootView, editTextText, spinner2,
-          textViewIssue);
+      return new FragmentContactBinding((ConstraintLayout) rootView, button, editTextText,
+          editTextText2, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

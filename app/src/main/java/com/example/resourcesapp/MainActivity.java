@@ -1,8 +1,6 @@
 package com.example.resourcesapp;
 
 import android.content.DialogInterface;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.text.InputType;
@@ -23,10 +21,8 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.resourcesapp.databinding.ActivityMainBinding;
-import com.example.resourcesapp.ui.moreTools.sub.LearnDesignFragment;
 import com.example.resourcesapp.views.grid.gridAdapter;
 import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
 

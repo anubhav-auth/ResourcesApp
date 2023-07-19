@@ -3290,6 +3290,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3367,6 +3368,7 @@ id easeOut
 id east
 id edge
 id editTextText
+id editTextText2
 id edit_query
 id elastic
 id embed
@@ -3667,7 +3669,6 @@ id south
 id spacer
 id special_effects_controller_view_tag
 id spinner
-id spinner2
 id spline
 id split_action_bar
 id spread
@@ -3716,7 +3717,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView_issue
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

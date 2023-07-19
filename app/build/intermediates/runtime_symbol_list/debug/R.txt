@@ -3289,6 +3289,7 @@ int id bounce 0x7f0a0074
 int id bounceBoth 0x7f0a0075
 int id bounceEnd 0x7f0a0076
 int id bounceStart 0x7f0a0077
+int id button 0x7f0a025b
 int id buttonPanel 0x7f0a0078
 int id cache_measures 0x7f0a0079
 int id callMeasure 0x7f0a007a
@@ -3366,6 +3367,7 @@ int id easeOut 0x7f0a00c1
 int id east 0x7f0a00c2
 int id edge 0x7f0a00c3
 int id editTextText 0x7f0a0258
+int id editTextText2 0x7f0a025c
 int id edit_query 0x7f0a00c4
 int id elastic 0x7f0a00c5
 int id embed 0x7f0a00c6
@@ -3666,7 +3668,6 @@ int id south 0x7f0a01eb
 int id spacer 0x7f0a01ec
 int id special_effects_controller_view_tag 0x7f0a01ed
 int id spinner 0x7f0a01ee
-int id spinner2 0x7f0a0259
 int id spline 0x7f0a01ef
 int id split_action_bar 0x7f0a01f0
 int id spread 0x7f0a01f1
@@ -3715,7 +3716,7 @@ int id textSpacerNoTitle 0x7f0a021b
 int id textStart 0x7f0a021c
 int id textTop 0x7f0a021d
 int id textView 0x7f0a021e
-int id textView_issue 0x7f0a025a
+int id textView2 0x7f0a025d
 int id text_input_end_icon 0x7f0a021f
 int id text_input_error_icon 0x7f0a0220
 int id text_input_start_icon 0x7f0a0221

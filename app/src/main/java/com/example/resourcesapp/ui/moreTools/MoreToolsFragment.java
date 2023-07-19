@@ -1,7 +1,5 @@
 package com.example.resourcesapp.ui.moreTools;
 
-import androidx.lifecycle.ViewModelProvider;
-
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -11,13 +9,10 @@ import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
-import com.example.resourcesapp.MainActivity;
 import com.example.resourcesapp.R;
 import com.example.resourcesapp.views.grid.gridAdapter;
 import com.example.resourcesapp.views.grid.gridModel;

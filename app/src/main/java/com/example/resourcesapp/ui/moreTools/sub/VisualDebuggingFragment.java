@@ -1,7 +1,5 @@
 package com.example.resourcesapp.ui.moreTools.sub;
 
-import androidx.lifecycle.ViewModelProvider;
-
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -42,9 +40,15 @@ public class VisualDebuggingFragment extends Fragment {
     public void listings(){
         lists =  new ArrayList<listingModel>();
 /*        sample here
-        lists.add(new listingModel("", "", ""));
+          lists.add(new listingModel("", "", ""));
 */
+        lists.add(new listingModel("LogRocket", "a tool to record what users do on your site so you can reproduce bugs and fix issues faster.", "https://logrocket.com/"));
 
+        lists.add(new listingModel("PixelSnap", "the magical way to measure everything on your screen.", "https://getpixelsnap.com/"));
+
+        lists.add(new listingModel("VisBug", "on any webpage: visually debug, quick inspect style and a11y, change CSS visually, click and drag elements around, and much more.", "https://github.com/GoogleChromeLabs/ProjectVisBug"));
+
+        lists.add(new listingModel("Visual Inspector", "collaboration tool for website feedback and fixing design bugs.", "https://www.canvasflip.com/visual-inspector/"));
 
 
 

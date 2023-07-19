@@ -6,16 +6,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
+
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.resourcesapp.R;
 import java.util.ArrayList;
-import com.example.resourcesapp.MainActivity;
-import com.example.resourcesapp.ui.moreTools.MoreToolsFragment;
 
 public class gridAdapter extends RecyclerView.Adapter<gridAdapter.myViewHolder> {
 
