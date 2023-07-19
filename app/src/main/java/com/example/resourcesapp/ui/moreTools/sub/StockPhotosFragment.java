@@ -79,39 +79,33 @@ public class StockPhotosFragment extends Fragment {
 
         lists.add(new listingModel("Pexels", "an aggregate of many free stock photo and video resources.", "https://www.pexels.com/"));
 
-        lists.add(new listingModel("", "", ""));
+        lists.add(new listingModel("Photo Creator", "a free tool for creating realistic stock photos on your demand.", "https://photos.icons8.com/creator"));
 
-        lists.add(new listingModel("", "", ""));
+        lists.add(new listingModel("Picography", "free stock photos by Dave Meier and various other photographers with Creative Commons CC0.", "https://picography.co/"));
 
-        lists.add(new listingModel("", "", ""));
+        lists.add(new listingModel("pxhere", "free image stock.", "https://pxhere.com/"));
 
-        lists.add(new listingModel("", "", ""));
+        lists.add(new listingModel("Reshot", "a massive library of handpicked free stock photos you won’t find elsewhere.", "https://www.reshot.com/"));
 
-        lists.add(new listingModel("", "", ""));
+        lists.add(new listingModel("ShotStash", "thousands of free high-resolution CC0 photos and videos.", "https://shotstash.com/"));
 
-        lists.add(new listingModel("", "", ""));
+        lists.add(new listingModel("SkitterPhoto", "a wide variety of stock photos and are released under Creative Commons CC0.", "https://skitterphoto.com/"));
 
-        lists.add(new listingModel("", "", ""));
+        lists.add(new listingModel("Startup Stock Photos", "free photos for startups, bloggers and publishers.", "http://startupstockphotos.com/"));
 
-        lists.add(new listingModel("", "", ""));
+        lists.add(new listingModel("StockSnap.io", "a large selection of free stock photos and high-resolution images.", "https://stocksnap.io/"));
 
-        lists.add(new listingModel("", "", ""));
+        lists.add(new listingModel("StyledStock", "free feminine stock photography for every woman entrepreneur.", "https://styledstock.co/"));
 
-        lists.add(new listingModel("", "", ""));
+        lists.add(new listingModel("The Gender Spectrum Collection", "a stock photo library featuring images of trans and non-binary models that go beyond the clichés.", "https://genderspectrum.vice.com/"));
 
-        lists.add(new listingModel("", "", ""));
+        lists.add(new listingModel("UI Faces", "an aggregator that indexes various free avatar sources that you can use in your design mockups.", "https://uifaces.co/"));
 
-        lists.add(new listingModel("", "", ""));
+        lists.add(new listingModel("Unsplash", "stock photos free to use.", "https://unsplash.com/"));
 
-        lists.add(new listingModel("", "", ""));
+        lists.add(new listingModel("#WOCinTech Chat Photos", "free stock photos of women technologists of diverse backgrounds.", ""));
 
-        lists.add(new listingModel("", "", ""));
-
-        lists.add(new listingModel("", "", ""));
-
-        lists.add(new listingModel("", "", ""));
-
-        lists.add(new listingModel("", "", ""));
+        lists.add(new listingModel("Zoommy", "helps you find awesome free stock photos for your creative product or inspiration.", "http://www.zoommyapp.com/"));
 
         adapter = new listingAdapter(getContext(), lists);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false);
