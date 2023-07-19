@@ -42,24 +42,48 @@ public class UiFragment extends Fragment {
     public void listings(){
         lists =  new ArrayList<listingModel>();
 /*        sample here
-        lists.add(new listingModel("", "", "https://www."));
+        lists.add(new listingModel("", "", ""));
 */
 
-        lists.add(new listingModel("Design Better", "discover the best practices, stories, and insights from the world’s top design teams and leaders.", "https://www.designbetter.co/"));
+        lists.add(new listingModel("Adobe XD 1", "design, prototype, and share any user experience, from websites and mobile apps to voice interactions.", "https://www.adobe.com/products/xd.html"));
 
-        lists.add(new listingModel("Design+Code", "complete courses about the best tools and design systems.", "https://www.designcode.io/"));
+        lists.add(new listingModel("Affinity Designer", "a vector graphics editor for macOS, iOS, and Microsoft Windows.", "https://affinity.serif.com/en-gb/designer/"));
 
-        lists.add(new listingModel("DesignerUp", "a collection of self-paced courses and mentorship to help you master Product Design (UI/UX).", "https://www.designerup.co/"));
+        lists.add(new listingModel("Akira", "native Linux App for UI and UX Design built in Vala and Gtk.", "https://github.com/akiraux/Akira"));
 
-        lists.add(new listingModel("Figma Training", "a crash course all about Figma, for UI designers.", "https://www.figmatraining.com/"));
+        lists.add(new listingModel("Botmock", "design, prototype, and test voice and text conversational apps. Supports multiple platforms.", "https://www.botmock.com/"));
 
-        lists.add(new listingModel("Interaction Design Foundation", "a website that is the industry well known for learning UX/UI skills.", "https://www.interaction-design.org/"));
+        lists.add(new listingModel("CleverBrush", "a browser-based online vector editor and digital publishing tool which is possible to integrate to the page as JS component.", "https://www.cleverbrush.com/"));
 
-        lists.add(new listingModel("Laws of UX", "a collection of the maxims and principles that designers can consider when building user interfaces.", "https://www.lawsofux.com/"));
+        lists.add(new listingModel("Figma", "a design tool based in the browser, that allows to design and prototype with real-time collaboration.", "https://www.figma.com/"));
 
-        lists.add(new listingModel("Learn UX", "a complete approach to learning UI & UX Tools.", "https://www.learnux.io/"));
+        lists.add(new listingModel("GIMP", "a free & open-source imaging and graphic design software.", "https://www.gimp.org/"));
 
-        lists.add(new listingModel("Sketch Master", "a collection of video training courses for professionals learning Sketch.", "https://www.sketchmaster.com/"));
+        lists.add(new listingModel("Gravit", "a free vector design app, available for macOS, Windows, Linux, ChromeOS, and browser.", "https://designer.io/"));
+
+        lists.add(new listingModel("Illustrator", "create logos, icons, drawings, typography, and illustrations for print, web, video, and mobile. Made by Adobe.", "https://www.adobe.com/products/illustrator.html"));
+
+        lists.add(new listingModel("Inkscape", "a free and open-source vector graphics editor. It can create or edit vector graphics such as illustrations, diagrams, line arts, charts, logos, and complex paintings.", "https://inkscape.org/"));
+
+        lists.add(new listingModel("Krita", "a free painting and graphic design software considered a good alternative to Adobe Photoshop.", "https://krita.org/en/"));
+
+        lists.add(new listingModel("Lunacy", "a free native windows app that works offline and supports .sketch files. Flexible and light weighed. Intuitive and easy to use. Speedups and empowers UI and UX designers. The must have to produce stunning designs.", "https://icons8.com/lunacy"));
+
+        lists.add(new listingModel("Photopea", "a free browser-based graphic design app alternative to Photoshop.", "https://www.photopea.com/"));
+
+        lists.add(new listingModel("Photoshop", "imaging and graphic design software developed by Adobe.", "https://www.adobe.com/products/photoshop.html"));
+
+        lists.add(new listingModel("Pixelixe", "a graphic design tool built for marketers, bloggers and small businesses that needs to create stunning and unique images, graphics or static webpages in minutes.", "https://studio.pixelixe.com/"));
+
+        lists.add(new listingModel("Sketch", "a design toolkit built for Mac.", "https://www.sketchapp.com/"));
+
+        lists.add(new listingModel("Studio", "combines design, prototyping, and collaboration into one harmonious workflow. Made by InVision.", "https://www.invisionapp.com/studio"));
+
+        lists.add(new listingModel("TwitPile", "creates tiled images out of Twitter followers, interests and lists.", "https://twitpile.com/"));
+
+        lists.add(new listingModel("Vectr", "a simple web and desktop cross-platform tool to create vector graphics easily and intuitively.", "https://vectr.com/"));
+
+        lists.add(new listingModel("Voiceflow", "prototype, design and deploy real apps for Amazon Alexa & Google Home.", "https://www.voiceflow.com/"));
 
 
         adapter = new listingAdapter(getContext(), lists);

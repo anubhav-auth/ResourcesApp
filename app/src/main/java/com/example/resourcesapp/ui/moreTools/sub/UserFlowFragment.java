@@ -42,24 +42,38 @@ public class UserFlowFragment extends Fragment {
     public void listings(){
         lists =  new ArrayList<listingModel>();
 /*        sample here
-        lists.add(new listingModel("", "", "https://www."));
+        lists.add(new listingModel("", "", ""));
 */
 
-        lists.add(new listingModel("Design Better", "discover the best practices, stories, and insights from the world’s top design teams and leaders.", "https://www.designbetter.co/"));
+        lists.add(new listingModel("Draw.io", "a free online diagram software for making flowcharts, process diagrams, org charts, UML, ER, and network diagrams.", "https://www.draw.io/"));
 
-        lists.add(new listingModel("Design+Code", "complete courses about the best tools and design systems.", "https://www.designcode.io/"));
+        lists.add(new listingModel("Flowmapp", "an online tool for creating sitemaps and user flows that helps you to effectively design and plan user experience.", "https://flowmapp.com/"));
 
-        lists.add(new listingModel("DesignerUp", "a collection of self-paced courses and mentorship to help you master Product Design (UI/UX).", "https://www.designerup.co/"));
+        lists.add(new listingModel("Google Drawings", "create diagrams and charts, for free; all within Google Docs.", "https://docs.google.com/drawings/"));
 
-        lists.add(new listingModel("Figma Training", "a crash course all about Figma, for UI designers.", "https://www.figmatraining.com/"));
+        lists.add(new listingModel("Lucidchart", "an online tool for creating diagrams, flow charts, sitemaps, and more.", "https://www.lucidchart.com/"));
 
-        lists.add(new listingModel("Interaction Design Foundation", "a website that is the industry well known for learning UX/UI skills.", "https://www.interaction-design.org/"));
+        lists.add(new listingModel("MindNode", "a mind mapping app that makes brainstorming simple and easy.", "https://mindnode.com/"));
 
-        lists.add(new listingModel("Laws of UX", "a collection of the maxims and principles that designers can consider when building user interfaces.", "https://www.lawsofux.com/"));
+        lists.add(new listingModel("NinjaMock", "wireframe and user flow online tool. Link your views and create logic flow prototype. All with freehand visual style.", "https://ninjamock.com/"));
 
-        lists.add(new listingModel("Learn UX", "a complete approach to learning UI & UX Tools.", "https://www.learnux.io/"));
+        lists.add(new listingModel("OmniGraffle", "a diagramming and digital illustration application for macOS and iOS.", "https://www.omnigroup.com/omnigraffle/"));
 
-        lists.add(new listingModel("Sketch Master", "a collection of video training courses for professionals learning Sketch.", "https://www.sketchmaster.com/"));
+        lists.add(new listingModel("Overflow", "turn your designs into playable user flow diagrams that tell a story.", "https://overflow.io/"));
+
+        lists.add(new listingModel("Sketch.systems", "ui and flow design with interactive state machines.", "https://sketch.systems/"));
+
+        lists.add(new listingModel("SQUID", "create beautiful User Flows in Sketch in just minutes.", "https://uxmisfit.com/squid/"));
+
+        lists.add(new listingModel("WebSequenceDiagrams", "a simple webapp to work out object interactions arranged in time sequence.", "https://www.websequencediagrams.com/"));
+
+        lists.add(new listingModel("Whimsical", "easy to create flow charts, wireframes and sticky notes.", "https://whimsical.co/"));
+
+        lists.add(new listingModel("Wireflow", "free, online and open source tool for creating beautiful user flow prototypes.", "http://wireflow.co/"));
+
+        lists.add(new listingModel("XMind: ZEN", "a brainstorming and mind mapping tool that can switch between outline and tree-chart. Link topics with other charts.", "https://www.xmind.net/zen/"));
+
+        lists.add(new listingModel("yEd", "free desktop tool for making diagrams. Usable for the wide variety of use cases. Auto-layout helps a lot when making flowcharts.", "https://www.yworks.com/products/yed"));
 
 
         adapter = new listingAdapter(getContext(), lists);

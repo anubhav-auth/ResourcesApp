@@ -42,24 +42,32 @@ public class tools_3d_Fragment extends Fragment {
     public void listings(){
         lists =  new ArrayList<listingModel>();
 /*        sample here
-        lists.add(new listingModel("", "", "https://www."));
+        lists.add(new listingModel("", "", ""));
 */
 
-        lists.add(new listingModel("Design Better", "discover the best practices, stories, and insights from the world’s top design teams and leaders.", "https://www.designbetter.co/"));
+        lists.add(new listingModel("Autodesk", "integrated CAD, CAM, and CAE software. Unify design, engineering, and manufacturing into a single platform.", "https://www.autodesk.com/products/fusion-360/overview"));
 
-        lists.add(new listingModel("Design+Code", "complete courses about the best tools and design systems.", "https://www.designcode.io/"));
+        lists.add(new listingModel("Blender", "free and open-source 3D Creation Software.", "https://www.blender.org/"));
 
-        lists.add(new listingModel("DesignerUp", "a collection of self-paced courses and mentorship to help you master Product Design (UI/UX).", "https://www.designerup.co/"));
+        lists.add(new listingModel("FreeCAD", "a free and open-source multiplatform 3D parametric modeler.", "https://www.freecadweb.org/"));
 
-        lists.add(new listingModel("Figma Training", "a crash course all about Figma, for UI designers.", "https://www.figmatraining.com/"));
+        lists.add(new listingModel("MatterControl", "a free, open-source, all-in-one software package that lets you design, slice, organize and manage your 3D prints.", "https://www.matterhackers.com/store/l/mattercontrol/sk/MKZGTDW6"));
 
-        lists.add(new listingModel("Interaction Design Foundation", "a website that is the industry well known for learning UX/UI skills.", "https://www.interaction-design.org/"));
+        lists.add(new listingModel("Maya", "make animations, environments, motion graphics, virtual reality, and character creation, all in one toolset.", "https://www.autodesk.com/products/maya/overview"));
 
-        lists.add(new listingModel("Laws of UX", "a collection of the maxims and principles that designers can consider when building user interfaces.", "https://www.lawsofux.com/"));
+        lists.add(new listingModel("Onshape", "a modeling software specially oriented to design technical and spare parts, was the first full-cloud 3D software created.", "https://www.onshape.com/"));
 
-        lists.add(new listingModel("Learn UX", "a complete approach to learning UI & UX Tools.", "https://www.learnux.io/"));
+        lists.add(new listingModel("OpenSCAD", "a software for creating solid 3D CAD objects.", "https://www.openscad.org/"));
 
-        lists.add(new listingModel("Sketch Master", "a collection of video training courses for professionals learning Sketch.", "https://www.sketchmaster.com/"));
+        lists.add(new listingModel("Rhino", "a curve-based 3D modeling software that creates mathematically-precise models of 3D surfaces.", "https://www.rhino3d.com/"));
+
+        lists.add(new listingModel("SketchUp", "3D design software that truly makes 3D modeling for everyone, with a simple to learn yet robust toolset.", "https://www.sketchup.com/"));
+
+        lists.add(new listingModel("Tinkercad", "a free, easy-to-use app for 3D design, electronics, and coding.", "https://www.tinkercad.com/"));
+
+        lists.add(new listingModel("Vectary", "create beautiful 3D models with our drag and drop 3D modeling tool.", "https://www.vectary.com/"));
+
+        lists.add(new listingModel("3D Slash", "3D modeling tool, available on all devices and all OS, online and offline.", "https://www.3dslash.net/"));
 
 
         adapter = new listingAdapter(getContext(), lists);
