@@ -8,14 +8,11 @@
         android:minSdkVersion="26"
         android:targetSdkVersion="33" />
 
-    <uses-permission android:name="android.permission.SEND_EMAIL" />
-
     <permission
         android:name="com.example.resourcesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.resourcesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-
+    <uses-permission android:name="com.example.resourcesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- <uses-permission android:name="android.permission.SEND_EMAIL" /> -->
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
