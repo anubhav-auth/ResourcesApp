@@ -130,11 +130,13 @@ id secretButton
 id sketchingFragment
 id smm_Fragment
 id soundFragment
+id spinner_contact
 id stockPhotosFragment
 id stockVideoFragment
 id switch1
 id textView
 id textView2
+id textView3
 id toolbar
 id tools_3d_Fragment
 id uiFragment

@@ -13,20 +13,34 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.example.resourcesapp.R;
 
+import java.util.ArrayList;
 import java.util.Objects;
 
-public class ContactFragment extends Fragment {
+public class ContactFragment extends Fragment implements AdapterView.OnItemSelectedListener {
     View view;
     Button bt;
     EditText et;
     EditText et1;
     EditText et2;
+    Spinner spin;
+    String name;
+    String email;
+    String message;
+    Toast toast1;
+    int spinner_num;
+    String spinner_identifier;
+
+
+
 
     public static ContactFragment newInstance() {
         return new ContactFragment();
@@ -40,20 +54,50 @@ public class ContactFragment extends Fragment {
         et = view.findViewById(R.id.textView2);
         et1 = view.findViewById(R.id.editTextText);
         et2 = view.findViewById(R.id.editTextText2);
+        spin = view.findViewById(R.id.spinner_contact);
+
+        ArrayList<String> categories = new ArrayList<String>();
+
+        // Spinner click listener
+        spin.setOnItemSelectedListener(this);
+
+        // Spinner Drop down elements
+        categories.add("--- ---");
+        categories.add("Broken Links");
+        categories.add("Improvements");
+        categories.add("Request Addition");
+        categories.add("Report Bugs");
+
+        // Creating adapter for spinner
+        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, categories);
+
+        // Drop down layout style - list view with radio button
+        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        // attaching data adapter to spinner
+        spin.setAdapter(dataAdapter);
+
+
+
+
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String name = et.getText().toString();
-                String email = et1.getText().toString();
-                String message = et2.getText().toString();
+                name = et.getText().toString();
+                email = et1.getText().toString();
+                message = et2.getText().toString();
 
-                if (name.isEmpty() || email.isEmpty() || message.isEmpty()) {
-                    Toast.makeText(getContext(), "Please check", Toast.LENGTH_SHORT).show();
-                } else {
-                    Toast.makeText(getContext(),"mail sent", Toast.LENGTH_SHORT).show();
-                    sendEmail(name, email, message);
+                if (spinner_num == 0) {
+                    Toast.makeText(getContext(), "Please choose a reason", Toast.LENGTH_SHORT).show();
+                }else {
+
+                    if (name.isEmpty() || email.isEmpty() || message.isEmpty()) {
+                        Toast.makeText(getContext(), "Please fill all fields", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Toast.makeText(getContext(), "Heading to mail app", Toast.LENGTH_SHORT).show();
+                        sendEmail(name, email, message);
+                    }
                 }
-
             }
         });
         return view;
@@ -65,8 +109,8 @@ public class ContactFragment extends Fragment {
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto:"));
         intent.putExtra(Intent.EXTRA_EMAIL, new String[] { "fortv3457@gmail.com" });
-        intent.putExtra(Intent.EXTRA_SUBJECT, "Contact Form Submission from " + name);
-        intent.putExtra(Intent.EXTRA_TEXT, "Name: " + name + "\n" + "\nEmail: " + email + "\n" + "\n" + "\nMessage: " + message);
+        intent.putExtra(Intent.EXTRA_SUBJECT,  spinner_identifier + "Contact Form Submission from " + name);
+        intent.putExtra(Intent.EXTRA_TEXT, "Name: " + name + "\n" + "\nEmail: " + email + "\n" + "\n" + "\nMessage: " + "\n" + "\n" + message);
 
 
         startActivity(Intent.createChooser(intent, "Email via..."));
@@ -75,12 +119,41 @@ public class ContactFragment extends Fragment {
 
     }
 
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+            // On selecting a spinner item
+            String item = parent.getItemAtPosition(position).toString();
+            spinner_num = position;
+            if (toast1 != null){
+                toast1.cancel();
+            }
+            if (position != 0){
+                // Showing selected spinner item
+//                toast1 = Toast.makeText(parent.getContext(), "Selected: " + position, Toast.LENGTH_LONG);
+//                toast1.show();
+                switch (position){
+                    case 1 -> {spinner_identifier = "{BrokenLink} ";}
+                    case 2 -> {spinner_identifier = "{Improvements} ";}
+                    case 3 -> {spinner_identifier = "{AdditionRequest} ";}
+                    case 4 -> {spinner_identifier = "{BugReport} ";}
+                }
+                switch (position){
+                    case 1 -> {et2.setHint("enter the name of resource whose link is not working \n \nuse format: \n\ncoding > codinggames > z type");}
+                    case 2 -> {et2.setHint("what do you think i can improve?");}
+                    case 3 -> {et2.setHint("what would you like me to add? \nadd name, url and a short description \n \nuse format: \n \nname\nhttps://www.example.com\ndescription");}
+                    case 4 -> {et2.setHint("report bug\n \nuse format: \n\ncoding>codinggames>z type \n \ndescription and trigger of bug");}
+                }
+
+            }
+
+
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
+    }
+
+
 }
-
-/*
-when option chosen on spinner display the corresponding fields to enter data
-* broken links
-*improvement
-*problematic stuff
-
- */

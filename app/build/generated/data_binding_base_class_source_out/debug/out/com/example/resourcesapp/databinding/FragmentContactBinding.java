@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -30,16 +32,24 @@ public final class FragmentContactBinding implements ViewBinding {
   public final EditText editTextText2;
 
   @NonNull
+  public final Spinner spinnerContact;
+
+  @NonNull
   public final EditText textView2;
+
+  @NonNull
+  public final TextView textView3;
 
   private FragmentContactBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
       @NonNull EditText editTextText, @NonNull EditText editTextText2,
-      @NonNull EditText textView2) {
+      @NonNull Spinner spinnerContact, @NonNull EditText textView2, @NonNull TextView textView3) {
     this.rootView = rootView;
     this.button = button;
     this.editTextText = editTextText;
     this.editTextText2 = editTextText2;
+    this.spinnerContact = spinnerContact;
     this.textView2 = textView2;
+    this.textView3 = textView3;
   }
 
   @Override
@@ -87,14 +97,26 @@ public final class FragmentContactBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.spinner_contact;
+      Spinner spinnerContact = ViewBindings.findChildViewById(rootView, id);
+      if (spinnerContact == null) {
+        break missingId;
+      }
+
       id = R.id.textView2;
       EditText textView2 = ViewBindings.findChildViewById(rootView, id);
       if (textView2 == null) {
         break missingId;
       }
 
+      id = R.id.textView3;
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
+      if (textView3 == null) {
+        break missingId;
+      }
+
       return new FragmentContactBinding((ConstraintLayout) rootView, button, editTextText,
-          editTextText2, textView2);
+          editTextText2, spinnerContact, textView2, textView3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
