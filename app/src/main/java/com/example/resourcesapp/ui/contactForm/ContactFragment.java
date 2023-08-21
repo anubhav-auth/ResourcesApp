@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -95,7 +96,14 @@ public class ContactFragment extends Fragment implements AdapterView.OnItemSelec
                         Toast.makeText(getContext(), "Please fill all fields", Toast.LENGTH_SHORT).show();
                     } else {
                         Toast.makeText(getContext(), "Heading to mail app", Toast.LENGTH_SHORT).show();
-                        sendEmail(name, email, message);
+                        Handler hd = new Handler();
+                        hd.postDelayed(new Runnable() {
+                            @Override
+                            public void run() {
+                                sendEmail(name, email, message);
+                            }
+                        },1000);
+
                     }
                 }
             }

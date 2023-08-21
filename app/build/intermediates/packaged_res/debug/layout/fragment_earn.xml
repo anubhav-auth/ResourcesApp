@@ -5,9 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".ui.earn.EarnFragment">
 
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_earn"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text=" heheee" />
+        android:layout_height="match_parent" />
 
 </FrameLayout>

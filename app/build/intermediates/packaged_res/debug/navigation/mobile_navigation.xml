@@ -9,17 +9,7 @@
         android:id="@+id/nav_home"
         android:name="com.example.resourcesapp.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" >
-        <action
-            android:id="@+id/action_nav_home_to_nav_gitRepos"
-            app:destination="@id/nav_gitRepos" />
-        <action
-            android:id="@+id/action_nav_home_to_nav_earn"
-            app:destination="@id/nav_earn" />
-        <action
-            android:id="@+id/action_nav_home_to_nav_coding"
-            app:destination="@id/nav_coding" />
-    </fragment>
+        tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gitRepos"
@@ -96,7 +86,38 @@
         android:id="@+id/nav_earn"
         android:name="com.example.resourcesapp.ui.earn.EarnFragment"
         android:label="@string/menu_earn"
-        tools:layout="@layout/fragment_earn" />
+        tools:layout="@layout/fragment_earn" >
+        <action
+            android:id="@+id/action_nav_earn_to_dropShippingFragment"
+            app:destination="@id/dropShippingFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_nav_earn_to_affiliateMarketingFragment"
+            app:destination="@id/affiliateMarketingFragment" />
+        <action
+            android:id="@+id/action_nav_earn_to_sellTshirtFragment"
+            app:destination="@id/sellTshirtFragment" />
+        <action
+            android:id="@+id/action_nav_earn_to_NFTGeneratorFragment"
+            app:destination="@id/NFTGeneratorFragment" />
+        <action
+            android:id="@+id/action_nav_earn_to_mysteryShoppingFragment"
+            app:destination="@id/mysteryShoppingFragment" />
+        <action
+            android:id="@+id/action_nav_earn_to_earningSitesFragment"
+            app:destination="@id/earningSitesFragment" />
+        <action
+            android:id="@+id/action_nav_earn_to_earningIdeasFragment"
+            app:destination="@id/earningIdeasFragment" />
+        <action
+            android:id="@+id/action_nav_earn_to_youtubeFragment"
+            app:destination="@id/youtubeFragment" />
+        <action
+            android:id="@+id/action_nav_earn_to_websiteTestingFragment"
+            app:destination="@id/websiteTestingFragment" />
+    </fragment>
     <fragment
         android:id="@+id/nav_trading"
         android:name="com.example.resourcesapp.ui.trading.TradingFragment"
@@ -207,4 +228,49 @@
         android:name="com.example.resourcesapp.ui.contactForm.ContactFragment"
         android:label="@string/menu_contact"
         tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/affiliateMarketingFragment"
+        android:name="com.example.resourcesapp.ui.earn.sub.AffiliateMarketingFragment"
+        android:label="Affiliate Marketing"
+        tools:layout="@layout/fragment_affiliate_marketing" />
+    <fragment
+        android:id="@+id/dropShippingFragment"
+        android:name="com.example.resourcesapp.ui.earn.sub.DropShippingFragment"
+        android:label="Drop Shipping"
+        tools:layout="@layout/fragment_drop_shipping" />
+    <fragment
+        android:id="@+id/earningIdeasFragment"
+        android:name="com.example.resourcesapp.ui.earn.sub.EarningIdeasFragment"
+        android:label="Earning Ideas"
+        tools:layout="@layout/fragment_earing_ideas" />
+    <fragment
+        android:id="@+id/earningSitesFragment"
+        android:name="com.example.resourcesapp.ui.earn.sub.EarningSitesFragment"
+        android:label="Earning Sites"
+        tools:layout="@layout/fragment_earning_sites" />
+    <fragment
+        android:id="@+id/mysteryShoppingFragment"
+        android:name="com.example.resourcesapp.ui.earn.sub.MysteryShoppingFragment"
+        android:label="Mystery Shopping"
+        tools:layout="@layout/fragment_mystery_shopping" />
+    <fragment
+        android:id="@+id/NFTGeneratorFragment"
+        android:name="com.example.resourcesapp.ui.earn.sub.NFTGeneratorFragment"
+        android:label="NFT Generators"
+        tools:layout="@layout/fragment_n_f_t_generator" />
+    <fragment
+        android:id="@+id/sellTshirtFragment"
+        android:name="com.example.resourcesapp.ui.earn.sub.SellTshirtFragment"
+        android:label="Sell T-Shirts"
+        tools:layout="@layout/fragment_sell_tshirt" />
+    <fragment
+        android:id="@+id/youtubeFragment"
+        android:name="com.example.resourcesapp.ui.earn.sub.YoutubeFragment"
+        android:label="Earn From Youtube"
+        tools:layout="@layout/fragment_youtube" />
+    <fragment
+        android:id="@+id/websiteTestingFragment"
+        android:name="com.example.resourcesapp.ui.earn.sub.WebsiteTestingFragment"
+        android:label="fragment_website_testing"
+        tools:layout="@layout/fragment_website_testing" />
 </navigation>

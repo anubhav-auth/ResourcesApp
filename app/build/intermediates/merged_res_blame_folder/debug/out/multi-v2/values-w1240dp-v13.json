@@ -4,7 +4,7 @@
             "outputFile": "com.example.resourcesapp-mergeDebugResources-44:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pc\\AndroidStudioProjects\\ResourcesApp\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "C:\\Users\\Anubhav\\AndroidStudioProjects\\ResourcesApp\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
