@@ -26,6 +26,7 @@ import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
+    ////hello this is test for new laptop on 21/8/23 delete this line later
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
     private static final String CORRECT_PASSWORD = "1234";
