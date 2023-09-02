@@ -147,12 +147,28 @@ public class ContactFragment extends Fragment implements AdapterView.OnItemSelec
                     case 4 -> {spinner_identifier = "{BugReport} ";}
                 }
                 switch (position){
-                    case 1 -> {et2.setHint("enter the name of resource whose link is not working \n \nuse format: \n\ncoding > codinggames > z type");}
-                    case 2 -> {et2.setHint("what do you think i can improve?");}
-                    case 3 -> {et2.setHint("what would you like me to add? \nadd name, url and a short description \n \nuse format: \n \nname\nhttps://www.example.com\ndescription");}
-                    case 4 -> {et2.setHint("report bug\n \nuse format: \n\ncoding>codinggames>z type \n \ndescription and trigger of bug");}
+                    case 0 -> {et2.setHint("choose a reason");
+                        setHeight();
+                    enable();}
+                    case 1 -> {et2.setHint("enter the name of resource whose link is not working \n \nuse format: \n\ncoding > codinggames > z type");
+                        setHeight();
+                    enable();}
+                    case 2 -> {et2.setHint("what do you think i can improve?");
+                        setHeight();
+                    enable();}
+                    case 3 -> {et2.setHint("what would you like me to add? \nadd name, url and a short description \n \nuse format: \n \nname\nhttps://www.example.com\ndescription");
+                        setHeight();
+                    enable();}
+                    case 4 -> {et2.setHint("report bug\n \nuse format: \n\ncoding>codinggames>z type \n \ndescription and trigger of bug");
+                        setHeight();
+                    enable();}
                 }
 
+            }else {
+                et2.setHint("choose a option");
+                setHeight();
+                et2.setEnabled(false);
+//                et2.setClickable(false);
             }
 
 
@@ -164,4 +180,15 @@ public class ContactFragment extends Fragment implements AdapterView.OnItemSelec
     }
 
 
+    void setHeight(){
+        ViewGroup.LayoutParams params  =  et2.getLayoutParams();
+        params.height = ViewGroup.LayoutParams.WRAP_CONTENT;
+        et2.setLayoutParams(params); /* Gives as much height for multi line*/
+
+        et2.setSingleLine(false); /* Makes it Multi line */
+    }
+
+    void enable(){
+        et2.setEnabled(true);
+    }
 }
