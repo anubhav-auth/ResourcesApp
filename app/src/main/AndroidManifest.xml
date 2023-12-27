@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ResourcesApp"
-        tools:targetApi="31">
+        tools:targetApi="34">
+
+
         <activity
             android:name=".SplashScreen"
             android:configChanges="orientation|screenSize"
@@ -27,8 +29,11 @@
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize"
+
             android:exported="true"
             android:theme="@style/Theme.ResourcesApp.NoActionBar">
+
+
         </activity>
 
         <meta-data

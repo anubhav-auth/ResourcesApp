@@ -1,178 +1,178 @@
 [
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_genral.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_genral.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_tools_3d_.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_tools_3d_.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_gitrepos.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_gitrepos.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_coding.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_coding.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_earning_sites.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_earning_sites.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_gitrepos.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_gitrepos.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_home.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_home.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_youtube.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_youtube.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_settings.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_settings.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_settings.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_settings.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_n_f_t_generator.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_n_f_t_generator.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_coding_games.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_coding_games.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_downloads.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_downloads.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_wireframing.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_wireframing.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_drop_shipping.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_drop_shipping.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_contact.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_contact.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_prototyping.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_prototyping.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_user_flow.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_user_flow.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/grid_view.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/grid_view.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_earning_sites.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_earning_sites.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_mystery_shopping.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_mystery_shopping.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_sell_tshirt.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_sell_tshirt.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_info_gathering.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_info_gathering.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/nav_header_main.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/nav_header_main.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_user_flow.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_user_flow.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_earing_ideas.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_earing_ideas.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_website_testing.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_website_testing.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_sketching.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_sketching.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_stock_photos.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_stock_photos.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/content_main.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/content_main.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_tools_3d_.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_tools_3d_.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_stock_video.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_stock_video.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_youtube.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_youtube.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_drop_shipping.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_drop_shipping.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_usefull_extensions.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_usefull_extensions.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/grid_view.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/grid_view.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_contact.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_contact.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_n_f_t_generator.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_n_f_t_generator.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/activity_splash_screen.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/activity_splash_screen.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_screenshot.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_screenshot.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_project_ideas.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_project_ideas.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_website_testing.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_website_testing.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_learn_design.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_learn_design.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_mystery_shopping.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_mystery_shopping.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/listing_view.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/listing_view.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_visual_debugging.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_visual_debugging.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_more_tools.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_more_tools.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_sound.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_sound.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_screenshot.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_screenshot.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/listing_view.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/listing_view.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_sketching.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_sketching.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/activity_main.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_wireframing.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_wireframing.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_usefull_extensions.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_usefull_extensions.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_smm_.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_smm_.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_downloads.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_downloads.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_sell_tshirt.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_sell_tshirt.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_earn.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_earn.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/app_bar_main.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/app_bar_main.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_prototyping.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_prototyping.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_coding.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_coding.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_user_research.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_user_research.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_sound.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_sound.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_learn_design.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_learn_design.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_affiliate_marketing.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_affiliate_marketing.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_info_gathering.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_info_gathering.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_earn.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_earn.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_smm_.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_smm_.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_user_research.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_user_research.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_stock_photos.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_stock_photos.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/activity_main.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/activity_main.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_ui.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_ui.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_coding_games.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_coding_games.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_project_ideas.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_project_ideas.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_visual_debugging.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_visual_debugging.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_home.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/content_main.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/content_main.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_affiliate_marketing.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_affiliate_marketing.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_earing_ideas.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_earing_ideas.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_genral.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_genral.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_stock_video.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_stock_video.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_trading.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_trading.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_ui.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_ui.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/app_bar_main.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/app_bar_main.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/nav_header_main.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/nav_header_main.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/activity_splash_screen.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "com.example.resourcesapp-mergeDebugResources-45:/layout/fragment_trading.xml",
-        "source": "com.example.resourcesapp-main-48:/layout/fragment_trading.xml"
+        "merged": "com.example.resourcesapp-mergeDebugResources-50:/layout/fragment_more_tools.xml",
+        "source": "com.example.resourcesapp-main-53:/layout/fragment_more_tools.xml"
     }
 ]
